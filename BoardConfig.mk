@@ -1,13 +1,13 @@
 # Inherit from common
-include device/samsung/j5-common/BoardConfigCommon.mk
+include device/samsung/j5x-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/j5nlte
+LOCAL_PATH := device/samsung/j5xnlte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j5nlte,j5nltexx
+TARGET_OTA_ASSERT_DEVICE := j5xnlte
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5nlte_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5xnlte_eur_defconfig
 
 # NFC
 BOARD_NFC_CHIPSET := pn548
